@@ -10,11 +10,13 @@ class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
-        Picasso
+        setContentView(R.layout.activity_imc)
+        /*Picasso
             .get()
             .load("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRepETJZr0ZHtIQvwwvxztMDnYWOoSl4ZMDPhQIDy8tsTt2r4Yq8w")
             .into(imageView)
+
+         */
     }
 
     fun toastTest(text:String)=

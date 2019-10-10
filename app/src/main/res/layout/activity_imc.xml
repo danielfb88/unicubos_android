@@ -26,7 +26,6 @@
         android:hint="Seu peso (KG)"
         android:backgroundTint="@android:color/white"
         android:layout_below="@+id/titleTX"
-        android:elevation="5dp"
         android:layout_centerHorizontal="true"/>
 
     <EditText
@@ -41,7 +40,6 @@
         android:hint="Sua altura"
         android:backgroundTint="@android:color/white"
         android:layout_below="@+id/wightEDTX"
-        android:elevation="5dp"
         android:layout_centerHorizontal="true"/>
 
     <Button
